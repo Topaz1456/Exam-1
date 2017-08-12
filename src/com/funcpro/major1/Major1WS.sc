@@ -9,7 +9,9 @@ object Major1WS {
  		
  		val m = counter(x);
  		
- 		if(m <= 1) {
+ 		if(m == 0) {
+ 			x;
+ 		} else if(m == 1) {
  			x;
  		} else {
  			fib(x - 1) + fib(x - 2);
